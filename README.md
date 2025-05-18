@@ -15,6 +15,7 @@ This is a Streamlit-based web application that allows users to generate music fr
 ### 1. Clone the repository
 
 git clone https://github.com/your-username/text-to-music-generation-app.git
+
 cd text-to-music-generation-app
 
 ### 2. Set up a virtual environment (optional but recommended)
