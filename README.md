@@ -12,11 +12,14 @@ This is a Streamlit-based web application that allows users to generate music fr
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the repository and Audiocraft
 
 git clone https://github.com/your-username/text-to-music-generation-app.git
 
 cd text-to-music-generation-app
+
+Clone Audiocraft: git clone https://github.com/facebookresearch/audiocraft.git
+
 
 ### 2. Set up a virtual environment (optional but recommended)
 python -m venv venv
