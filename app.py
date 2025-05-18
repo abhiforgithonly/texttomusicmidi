@@ -61,7 +61,8 @@ def save_audio(samples: torch.Tensor):
     saved_paths = []
     for idx, audio in enumerate(samples):
         audio_path = os.path.join(save_path, f"audio_{idx}.wav")
-        torchaudio.save(audio_path, audio, sample_rate)
+        # Use the backend parameter to specify the backend explicitly
+        torchaudio.save(audio_path, audio, sample_rate, backend="sox_io")
         saved_paths.append(audio_path)
     
     return saved_paths[0]  # Return the path to the first audio file
