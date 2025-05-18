@@ -17,14 +17,14 @@ A Streamlit-based web application that transforms text prompts into original mus
 ---
 
 ## ⚙️ Setup Instructions
-## ⚙️ Setup Instructions
+
 
 > **Note:** Due to the large size of Audiocraft and its models, this app is best run locally on a machine with at least 8GB RAM.
 
-### 1. Clone the Repo
+
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+1. git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 2. Clone Audiocraft Manually
 Since Audiocraft is large, clone it separately in the same directory:
