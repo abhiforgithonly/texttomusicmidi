@@ -13,26 +13,23 @@ A Streamlit-based web application that transforms text prompts into original mus
 
 ---
 
-## 📁 Project Structure
-
-├── app.py # Main Streamlit app
-├── requirements.txt # All dependencies
-├── README.md # You're here
-
-yaml
-Copy
-Edit
 
 ---
 
+## ⚙️ Setup Instructions
 ## ⚙️ Setup Instructions
 
 > **Note:** Due to the large size of Audiocraft and its models, this app is best run locally on a machine with at least 8GB RAM.
 
 ### 1. Clone the Repo
-```bash git clone https://github.com/your-username/your-repo-name.git cd your-repo-name
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 2. Clone Audiocraft Manually
 Since Audiocraft is large, clone it separately in the same directory:
+
+bash
 
 git clone https://github.com/facebookresearch/audiocraft.git
 Make sure the folder structure looks like this:
@@ -43,15 +40,21 @@ your-repo-name/
 ├── requirements.txt
 ├── audiocraft/          ✅ Cloned manually
 3. Create a Virtual Environment
-
+bash
+Copy
+Edit
 python -m venv .venv
 source .venv/bin/activate     # On Windows: .venv\Scripts\activate
 4. Install Dependencies
-
+bash
+Copy
+Edit
 pip install --upgrade pip
 pip install -r requirements.txt
 ⚠️ Installation might take time due to heavy libraries like torch, torchaudio, transformers, and audiocraft.
 
 5. Run the App
-
+bash
+Copy
+Edit
 streamlit run app.py
